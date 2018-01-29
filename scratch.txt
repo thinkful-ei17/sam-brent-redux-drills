@@ -1,0 +1,7 @@
+Thinkful is going global, and they want to use Redux to manage the internationalization of their website. In order to switch between different languages, they need the user's currently selected language stored in the Redux state. They want the default language to be English until the user chooses to switch to a different language.
+
+You should spend up to 45 minutes creating the action and reducer which will allow the user to switch their state to a different language.
+
+There are stubs for a setLanguage action in src/actions/index.js and a stub for the reducer which handles the action in src/reducers/index.js. These will both need completing. When the setLanguage action is dispatched, it should set the language property of the state to the new language, contained in the action's payload.
+
+The store is already defined for you in src/store.js, and there is code in src/index.js which dispatches the action and logs out the state so you can test your solution. You should make sure that your final state matches the expected output in the comments.
